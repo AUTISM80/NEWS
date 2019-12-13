@@ -1,0 +1,199 @@
+
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  font-size: 25px;
+}
+
+h2{
+  font-size: 20;
+}
+div,p {
+  padding: 10px 0; 
+}
+
+.banner {
+  background-color:red;
+  color: white;
+  padding: 10px 20px;
+}
+.ingress{
+  font-weight: bold;
+}
+.Menu{
+  font-size:30px;
+  cursor:pointer
+}
+
+
+.adverts {
+    margin: 2px;
+    padding: 5px;
+    width: 300px;
+    float: left;
+  
+}
+
+/* img {
+    max-width: 100%;
+} */
+
+.img {
+  width: 500px;
+  height: 400px;
+}
+
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+nav {
+  background-color: white;
+  padding: 10px;
+  margin-top: 1px;
+
+}
+ul {
+      padding-inline-start: 5px;
+}
+li a {
+  color: #000000;;
+}
+
+li {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 15px;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-emphasis-color: black;
+
+}
+
+section {
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+article {
+  background-color: white;
+  margin-top: 5px;
+  padding: 10px 15px;
+}
+
+main {
+  width: 640px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+aside.right {
+  background-color: white;
+  width: 170px;
+  float: right;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+aside.left {
+  background-color: white;
+  width: 100px;
+  float: left;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.column {
+    float:left;
+    border: solid white 2px;
+    width: 280px;
+    margin: 2px;
+    padding: 5px;
+
+}
+
+footer {
+  clear: both;
+  background-color: white;
+  color: white;
+  padding: 5px 20px;
+  height: 100px;
+}
+
+.image{
+  width: 100%;
+}
+
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:left;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.Menu {display:none;}
+
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */
+
+
+
+
+
+  @media screen and (max-width: 666px)
+{
+  .adverts{
+    width: 100%;
+    float:none;
+  }
+}
